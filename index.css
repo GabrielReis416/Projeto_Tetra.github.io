@@ -1,3 +1,11 @@
-
-
-    
+body{
+    font-family:  sans-serif;
+background-color: rgb(246, 241, 241);
+}
+#logo{
+    width: 280px;
+}
+#ebook{
+height: 400px;
+}
+.ebook{text-align: center;}
