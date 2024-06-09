@@ -12,3 +12,8 @@ height: 400px;
 
 .flex1{display: flex;
 justify-content: space-around;}
+
+#tamanho{width: 400px;}
+
+.empresasflex{display: flex;
+    justify-content: space-evenly;}
