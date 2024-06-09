@@ -1,6 +1,8 @@
+
 body{
     font-family:  sans-serif;
 background-color: rgb(246, 241, 241);
+
 }
 #logo{
     width: 280px;
@@ -17,3 +19,11 @@ justify-content: space-around;}
 
 .empresasflex{display: flex;
     justify-content: space-evenly;}
+
+.tam{width: 120px;
+
+}
+footer{
+    background-color: rgb(80, 163, 158);
+}
+
