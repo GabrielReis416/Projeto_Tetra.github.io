@@ -9,3 +9,6 @@ background-color: rgb(246, 241, 241);
 height: 400px;
 }
 .ebook{text-align: center;}
+
+.flex1{display: flex;
+justify-content: space-around;}
