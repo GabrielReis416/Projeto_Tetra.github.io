@@ -1,0 +1,1 @@
+<img id="logo" src="Tetra img/Tetra logo.png" alt="logo da Tetra Junior">
