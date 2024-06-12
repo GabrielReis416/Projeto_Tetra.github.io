@@ -40,9 +40,11 @@ h1{
     font-size: 100px;
 }
 #home{
-    background-color:  rgb(80, 163, 158);
-    padding: 1ex;
-    justify-content: space-around;
+   padding: 5px 40px;
+   background-color:rgb(80, 163, 158);
+   border-radius: 20px;
+   margin-top: 20px
+   justify-content: space-around;
 }
 .serviço{
     margin: auto;
