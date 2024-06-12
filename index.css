@@ -1,12 +1,14 @@
 
 body{
     font-family:  sans-serif;
-background-color: rgb(246, 241, 241);
+    background-color: rgb(246, 241, 241);
     margin: auto;
     text-align: center;
 }
 #logo{
     width: 280px;
+    margin-right: 90%;
+
 }
 #ebook{
 height: 400px;
@@ -14,19 +16,38 @@ height: 400px;
 .ebook{text-align: center;}
 
 .flex1{display: flex;
-justify-content: space-around;}
+justify-content: space-around;
+padding: 5ex;
+background-color:rgb(80, 163, 158);;
+}
 
 #tamanho{width: 400px;}
 
 .empresasflex{display: flex;
-    justify-content: space-evenly;}
+    justify-content: space-evenly;
+    padding: 2%;
+    background-color: rgb(80, 163, 158); ;
+}
+    
 
 .tam{width: 120px;
-
-h1{font-size: 100px;}
 
 }
 footer{
     background-color: rgb(80, 163, 158);
 }
-
+h1{
+    font-size: 100px;
+}
+#home{
+    background-color:  rgb(80, 163, 158);
+    padding: 1ex;
+    justify-content: space-around;
+}
+.serviço{
+    margin: auto;
+}
+.flex2{
+    display: flex;
+    font-size: 15px;
+}
