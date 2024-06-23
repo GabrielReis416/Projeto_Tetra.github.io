@@ -1,61 +1,128 @@
 
+/*
+  CORES DA PAGINA
+  COLOR 1 = antiquewhite
+*/
+
 body{
-    font-family:  sans-serif;
-    background-color: rgb(246, 241, 241);
-    margin: auto;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color1{
+    background-color:  rgb(80, 163, 158);
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: black;
+    font-size: 25px;
+}
+.logo{
+    color: black;
+    font-size: 30px;
+    margin-top: 12px;
+    margin-left: 5px;
+    text-align: left;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.ul li{
+    margin: 0 35px;
+}
+main .princ{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.titulo{
+    width: 50%;
+    font-size: 50px;
+    margin-left: 25px;
+}
+.img_capa{
+    margin-right:250px;
+    font-size: 20%;
+    
+}
+
+main .button{
+    width: 500px;
+    font-size: 50px;
+    background-color:rgb(80, 163, 158) ;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+hr{
+    margin-top: 80px;
+    width: 50%;
+}
+main .ebook{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.ebook_text{
+    width: 50%;
+    font-size: 50px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+main .button{
+    width: 500px;
+    font-size: 50px;
+    background-color:rgb(80, 163, 158) ;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+main .nos{
     text-align: center;
 }
-#logo{
-    width: 280px;
-    margin-right: 90%;
+main .nos h1{
+    font-size: 70px;
+}
+main .nos p{
+    font-size: 50px;
+}
+main .atuacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
 
 }
-#ebook{
-height: 400px;
-}
-.ebook{text-align: center;}
-
-.flex1{display: flex;
-justify-content: space-around;
-padding: 5ex;
-background-color:rgb(80, 163, 158);;
+main .text3{
+    font-size: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-#tamanho{width: 400px;}
-
+footer{
+    background-color:rgb(80, 163, 158)  ;
+}
+footer h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+footer p{
+    font-size: 25x;
+}
 .empresasflex{display: flex;
     justify-content: space-evenly;
     padding: 2%;
     background-color: rgb(80, 163, 158); ;
 }
-    
-
-.tam{width: 120px;
-
-}
-footer{
-    background-color: rgb(80, 163, 158);
-}
-h1{
-    font-size: 100px;
-}
-#home{
-   padding: 5px 40px;
-   background-color:rgb(80, 163, 158);
-   border-radius: 20px;
-   margin-top: 20px
-   justify-content: space-around;
-}
-.serviço{
-    margin: auto;
-}
-.flex2{
-    display: flex;
-    font-size: 15px;
-}
-h2{
-    font-size: 30px;
-}
-a {
-    margin-right: 10%
-}
+.tam{width: 120px; }
