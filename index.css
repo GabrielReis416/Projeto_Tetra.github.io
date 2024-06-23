@@ -126,3 +126,10 @@ footer p{
     background-color: rgb(80, 163, 158); ;
 }
 .tam{width: 120px; }
+
+
+.analises img 
+{
+        width: 300px;
+        height: auto;
+}
