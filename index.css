@@ -48,6 +48,7 @@ nav{
 a{
     color: black;
     font-size: 25px;
+    text-decoration: none;
 }
 .logo{
     color: black;
