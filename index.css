@@ -1,21 +1,45 @@
 
-/*
-  CORES DA PAGINA
-  COLOR 1 = antiquewhite
-*/
+ /* Color Theme Swatches in Hex */
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-1-hex { color: #127369; }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-2-hex { color: #10403B; }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-3-hex { color: #8AA6A3; }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-4-hex { color: #4C5958; }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-5-hex { color: #BFBFBF; }
+
+/* Color Theme Swatches in RGBA */
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-1-rgba { color: rgba(18, 114, 105, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-2-rgba { color: rgba(15, 63, 58, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-3-rgba { color: rgba(137, 165, 162, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-4-rgba { color: rgba(75, 89, 87, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-5-rgba { color: rgba(191, 191, 191, 1); }
+
+/* Color Theme Swatches in HSLA */
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-1-hsla { color: hsla(174, 72, 26, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-2-hsla { color: hsla(174, 60, 15, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-3-hsla { color: hsla(174, 13, 59, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-4-hsla { color: hsla(174, 8, 32, 1); }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-5-hsla { color: hsla(0, 0, 75, 1); }
+
+
 
 body{
-    background-color: antiquewhite;
+    background-color: #BFBFBF;
     font-family: Arial, Helvetica, sans-serif;
 }
 .color1{
-    background-color:  rgb(80, 163, 158);
+   background-image: url("img/imagem-initial-banner.webp" );
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 0 10px;
+  
 }
 
 .container{
+    
     max-width: 1440px;
-    padding: 0 5%;
-    margin: 0 auto;
+    padding: 0 ;
+    margin: auto;
 }
 nav{
     display: flex;
@@ -30,8 +54,7 @@ a{
     font-size: 30px;
     margin-top: 12px;
     margin-left: 5px;
-    text-align: left;
-}
+    text-align: left; }
 ul{
     display: flex;
     align-items: center;
@@ -45,69 +68,72 @@ main .princ{
     align-items: center;
     justify-content: space-between;
     margin-top: 25px;
+    padding: 35px;
 }
 .titulo{
     width: 50%;
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 25px;
 }
 .img_capa{
-    margin-right:250px;
+    margin-right:100px;
     font-size: 20%;
     
 }
 
-main .button{
+.button{
     width: 500px;
     font-size: 50px;
     background-color:rgb(80, 163, 158) ;
-    margin-left: 200px;
-    border-radius: 10px;
+    margin-left: 30px;
+    border-radius: 10px; 
 }
+.button2{
+    width: 500px;
+    font-size: 50px;
+    background-color:rgb(80, 163, 158) ;
+    margin-left: 30px;
+    border-radius: 10px; 
+ }
 hr{
     margin-top: 80px;
     width: 50%;
 }
-main .ebook{
+.ebook{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 25px;
+    
 }
 .ebook_text{
     width: 50%;
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 25px;
     margin-bottom: 10px;
 }
-main .button{
-    width: 500px;
-    font-size: 50px;
-    background-color:rgb(80, 163, 158) ;
-    margin-left: 200px;
-    border-radius: 10px;
-}
+
+
 main .nos{
     text-align: center;
 }
 main .nos h1{
-    font-size: 70px;
+    font-size: 35px;
 }
 main .nos p{
-    font-size: 50px;
+    font-size: 15px;
 }
-main .atuacao{
+.atuacao{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
-
 }
-main .text3{
-    font-size: 35px;
+.text3{
+    font-size: 15px;
     margin-left: 5px;
     margin-right: 5px;
-}
+    text-align: center;
+     }
 
 footer{
     background-color:rgb(80, 163, 158)  ;
@@ -115,10 +141,10 @@ footer{
 footer h1{
     margin-top: 40px;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
 }
 footer p{
-    font-size: 25x;
+    font-size: 15x;
 }
 .empresasflex{display: flex;
     justify-content: space-evenly;
@@ -128,6 +154,24 @@ footer p{
 .tam{width: 120px; }
 
 
+.servico img 
+{
+        width: 300px;
+        height: auto;
+}
+main .teste{
+    display: flex;
+    align-items: center;
+    
+    margin-top: 25px;
+}
+.color2{
+        background-color:#8AA6A3;; 
+        margin-bottom: 20px;
+    }
+.nos{
+    text-align: center;
+}
 .analises img 
 {
         width: 300px;
