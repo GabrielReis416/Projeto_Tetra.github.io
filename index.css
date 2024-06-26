@@ -250,6 +250,22 @@ span {
 }
 /*  end modal/Gabriel */
 
+@media screen and (max-width:720px){
+    h1{
+        width: auto;
+        margin: auto;
+        font-size: auto;
+        text-align: center;
+    }
+    p{
+        margin: auto;
+        font-size: auto;
+        text-align: center;
+    }
+    .valores{
+        margin: auto;
+        justify-content: none;
+    }
 
 /*  Media/Gabriel */
 @media (max-width:750px){
