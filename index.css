@@ -94,16 +94,41 @@ main .princ{
 }
 .titulo{
     width: 50%;
-}
 
-.button{
+}
+.solucoes{
     width: 250px;
     font-size: 30px;
     background-color:rgb(80, 163, 158) ;
     margin-left: 6px;
     border-radius: 10px;
     margin-top: 30px;
+    align-items: center;
+    padding: 20px;
+}
+.solucoes a{
+    text-align: center;
+    color: black;
+    
  }
+
+
+.ebook-link{
+    width: 250px;
+    font-size: 30px;
+    background-color:rgb(80, 163, 158) ;
+    margin-left: 6px;
+    border-radius: 10px;
+    margin-top: 30px;
+    align-items: center;
+ }
+ .ebook-link a{
+    text-align: center;
+    color: white;
+    margin-left: 50px;
+ }
+
+
 /*  end principal/Gabriel */
 /*  valores/Gabriel */
 .valores{
@@ -182,15 +207,29 @@ footer h1{
     font-size: 35px;
 }
 footer p{
-    font-size: 15x;
+    font-size: 25px;
 }
 .empresasflex{display: flex;
     justify-content: space-evenly;
     padding: 2%;
     background-color: #127369; ;
+    
 }
-.tam{width: 120px; }
+.empresasflex2{display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+    background-color: #127369; ;
+    position: fixed; 
+    bottom: 0;
+    width: 100%; 
+    overflow: hidden;
+    
+ }
 
+.tam{width: 120px; }
+.tam2{
+    width: 50px; 
+}
 
 /*    end footer /Gabriel */
 
@@ -204,6 +243,5 @@ footer p{
 
 
 /*    end atuacao /Gabriel */
-
 
 
