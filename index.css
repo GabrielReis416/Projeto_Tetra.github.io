@@ -12,17 +12,25 @@
 .N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-4-hsla { color: hsla(174, 8, 32, 1); }
 .N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-5-hsla { color: hsla(0, 0, 75, 1); }
 
-/* NavBar/Gabriel */
 html{
     width: auto;
     margin: auto;
-    min-width: 1280px;
-    min-width: 900px;
 }
 * {
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: "Roboto", sans-serif;
+}
+.logo {
+    height: 350px;
+    width: 250px;
+}
+.container3-wrapper{
+    display: flex;
+}
+
 a {
     font-family: sans-serif;
     text-decoration: none;
@@ -52,12 +60,7 @@ a {
     font-size: 20px;
     color: white;
     
-    
 }
-
-/*  end NavBar/Gabriel */
-
-/*  principal/Gabriel */
 
 body{
     margin: auto;
@@ -79,7 +82,7 @@ body{
 .container3{
     padding: 10%;
     margin: auto;
-    background-color:rgba(137, 165, 162, 1);
+    background-color: white;
 }
 .container4{
     padding: 10%;
@@ -90,29 +93,31 @@ body{
 main .princ{
     display: flex;
     align-items: center;
-    justify-content: a;
-    font-size: 30px;
+    justify-content: space-between;
+    font-size: 26px;
     margin-left: 2px;
-    color: black;
-    
+    color: #127369;
 }
 .titulo{
-    width: 50%;
+    width: 80%;
 
 }
 .solucoes{
     width: 250px;
     font-size: 30px;
-    background-color:rgb(80, 163, 158) ;
+    background-color:#127369;
     margin-left: 6px;
     border-radius: 10px;
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 20px;
 }
 .solucoes a{
     text-align: center;
-    color: black;
+    color: white;
+    font-weight: 600;
     
  }
 
@@ -132,9 +137,6 @@ main .princ{
     margin-left: 50px;
  }
 
-
-/*  end principal/Gabriel */
-/*  valores/Gabriel */
 .valores{
     display: flex;
     align-items: center;
@@ -142,8 +144,7 @@ main .princ{
     font-size: 35px;
     color: white;
 }
-/*  end valores/Gabriel */
-/*  ebook/Gabriel */
+
 .ebook {
     display: flex;
     align-items: center;
@@ -152,7 +153,6 @@ main .princ{
     margin-left: 2px;
     color: white;
 }
-/*   end ebook/Gabriel */
 
 .visao{
     display: flex;
@@ -167,7 +167,7 @@ main .princ{
     margin-left: 10px;
     margin: 10px 10px;
     border-radius: 5px;
-    width: 20%;
+    width: 30%;
     
 }
 .e1 h3{
@@ -176,36 +176,67 @@ main .princ{
 .e1 li{
     margin-left:  90px;
 }
-/*   sobre/Gabriel */
+
 .sobre{
     font-size: 25px;
+    color: #127369;
 }
-/*    end sobre/Gabriel */
 
-
-/*    caracter/Gabriel */
+.sobre >p{
+    color: black;
+}
 
 .c1{
     background-color:rgba(15, 63, 58, 1) ;
     font-size: 20px;
     padding: 35px;
     color: white;
-    margin-left: 10px;
     margin: 10px 10px;
     border-radius: 5px;
     width: auto;
-    
 }
 .c1 h2{
     text-align: center;
 }
-/*    end caracter/Gabriel */
+.residuos-container{
+    display: flex;
+    align-items: flex-start; 
+    width: 100%; 
+}
 
+.residuos-text ul li{
+    list-style-type: none; 
+}
 
-/*    footer/Gabriel */
+.consultoria-container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.consultoria-text ul li{
+    list-style-type: none;
+}
+
+.analises-container{
+    display: flex;
+    align-items: flex-start; 
+    width: 100%;
+}
+
+.analises-text {
+    width: 60%;
+}
+
+.analises-text ul li{
+    list-style-type: none;
+}
+
+.analises-img img {
+    width: 100%;
+}
 
 footer{
-    background-color:#127369;  
+    background-color:#127369; 
 }
 footer h1{
     margin-top: 40px;
@@ -214,6 +245,11 @@ footer h1{
 }
 footer p{
     font-size: 25px;
+}
+.contato {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
 .empresasflex{display: flex;
     justify-content: space-evenly;
@@ -236,66 +272,23 @@ footer p{
     width: 50px; 
 }
 
-/*    end footer /Gabriel */
-
-/*    atuacao /Gabriel */
 .atuacao{
     align-items: center;
-    font-size: 30px;
+    font-size: 24px;
     margin-left: 2px;
     color: white;
 }
 
-@media (max-width:767px) {
-  html{
-    width: 100%;
-    
-    text-align: left;
-    max-width: 768px;
-  }
-
-    
-  }
-
-}
-main .atuacao{
-    display:inline;
-    align-items: center;
-    font-size: 2px;
-    margin-left: 1px;
-}
-.container1{
-    padding: none;
-    margin: auto;
-    background-color:rgba(15, 63, 58, 1);
-    
-}
-.container2{
-    padding: 20px;
-    margin: auto;
-    background-color:#127369;;
-}
-.container3{
-    padding: 10%;
-    margin: auto;
-    background-color:rgba(137, 165, 162, 1);
-}
-.container4{
-    padding: 10%;
-    margin: auto;
-    background-color:rgba(137, 165, 162, 1);
-    }
-    .nav-list a{
+@media (max-width: 767px) {
+    html {
         font-size: 14px;
-        color: white;
-}
-.h1{
+        width: 100%;
+        margin: auto;
+        padding:0px ;
+    }
+     .h1{
     font-size: 10px;
-}
-    main .atuacao .p{
-    font-size: 10px;
+    
 }
 }
-
-/*    end atuacao /Gabriel */
 
