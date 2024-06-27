@@ -55,24 +55,7 @@ a {
     color: white;
     padding-block: 16px;
 }
-.hero {
-    height: calc(100vh - 70px);
-    background-color: #BFBFBF; 
-}
-.hamburger {
-    border: none;
-    background: none;
-    border-top: 3px solid white;
-}
 
-.hamburger::before,
-.hamburger::after {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 3px;
-    background-color: white;
-    margin-top: 5px;
 }
 /*  end NavBar/Gabriel */
 
@@ -219,89 +202,6 @@ footer p{
 
 
 /*    end atuacao /Gabriel */
-
-
-/*  modal/Gabriel */
-.btnOpenModal {
-    font-size: x-large;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgba(15, 63, 58, 1) ;
-    color: white;
-}
-.modal-container {
-    width: 100vw;
-    position: fixed;
-    top: 30px;
-    z-index: 999;
-    justify-content: center;
-
-}
-.modal{
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    background-color: white;
-    border-radius: 10px;
-    width: 50%;
-}
-
-.active{
-    display: flex;
-}
-.active .modal{
-    animation: moda .4s;
-}
-@keyframes modal {
-    from {
-        opacity: 0;
-        transform: translate3d(0,-60px,0);
-    }
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
-span {
-    margin: 10px auto;
-}
-.btns{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-/*  end modal/Gabriel */
-
-
-/*  Media/Gabriel */
-@media (max-width:750px){
-    .hamburger{
-        display: block;
-        z-index: 1;
-    }
-    .nav-list{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #127369;
-    clip-path: circle(100px at 90% -15%);
-    transition: 1s ease-out;
-
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    gap: 0;
-    pointer-events: none;}
-
-    .nav.active .nav-list{
-        clip-path: circle(1500px at 90% -15%);
-        pointer-events: all;
-    }
-}
-/*  end Media/Gabriel */
 
 
 
