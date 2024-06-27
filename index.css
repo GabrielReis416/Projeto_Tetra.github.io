@@ -38,7 +38,10 @@ a {
 }
 .header {
     background-color: #127369; ;
-    padding-inline: 16px;
+    position: fixed;
+    width: 2000px;
+    
+    
 }
 .nav {
     max-width: 1280px;
@@ -47,16 +50,20 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
 }
 .nav-list {
     display: flex;
     gap: 50px;
     list-style: none;
+    
 }
 .nav-list a{
     font-size: 20px;
     color: white;
-    padding-block: 16px;
+    
+    
 }
 
 /*  end NavBar/Gabriel */
@@ -217,7 +224,7 @@ footer p{
 }
 .empresasflex2{display: flex;
     justify-content: space-evenly;
-    padding: 2px;
+    
     background-color: #127369; ;
     position: fixed; 
     bottom: 0;
