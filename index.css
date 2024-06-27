@@ -245,7 +245,7 @@ footer p{
 
 /*    end atuacao /Gabriel */
 @media (max-width: 767px) {
-    body {
+    html {
         font-size: 14px;
         width: 100%;
         margin: auto;
