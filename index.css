@@ -16,6 +16,8 @@
 html{
     width: auto;
     margin: auto;
+    min-width: 1280px;
+    min-width: 900px;
 }
 * {
     margin: 0;
@@ -88,10 +90,11 @@ body{
 main .princ{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: a;
     font-size: 30px;
     margin-left: 2px;
     color: black;
+    
 }
 .titulo{
     width: 50%;
@@ -191,6 +194,7 @@ main .princ{
     margin: 10px 10px;
     border-radius: 5px;
     width: auto;
+    
 }
 .c1 h2{
     text-align: center;
@@ -242,18 +246,58 @@ footer p{
     color: white;
 }
 
-
-/*    end atuacao /Gabriel */
-@media (max-width: 767px) {
-    html {
-        font-size: 14px;
-        width: 100%;
-        margin: auto;
-        padding:0px ;
-    }
-     .h1{
-    font-size: 10px;
+@media (max-width:767px) {
+  html{
+    width: 100%;
+    
+    text-align: left;
+    max-width: 768px;
+  }
+ main .visao{
+    display:inline
+    
+  }
+  main .e1 li{
+    margin-left:  2px;
+}
+main .atuacao{
+    display:inline;
+    align-items: center;
+    font-size: 2px;
+    margin-left: 1px;
+}
+.container1{
+    padding: none;
+    margin: auto;
+    background-color:rgba(15, 63, 58, 1);
     
 }
+.container2{
+    padding: 20px;
+    margin: auto;
+    background-color:#127369;;
 }
+.container3{
+    padding: 10%;
+    margin: auto;
+    background-color:rgba(137, 165, 162, 1);
+}
+.container4{
+    padding: 10%;
+    margin: auto;
+    background-color:rgba(137, 165, 162, 1);
+    }
+    .nav-list a{
+        font-size: 14px;
+        color: white;
+}
+.h1{
+    font-size: 10px;
+}
+    main .atuacao .p{
+    font-size: 10px;
+}
+}
+
+/*    end atuacao /Gabriel */
 
