@@ -136,6 +136,25 @@ main .princ{
 }
 /*   end ebook/Gabriel */
 
+.visao{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.e1{
+    background-color:rgba(15, 63, 58, 1) ;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    margin-left: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    width: 20%;
+    
+}
+.e1 h3{
+    text-align: center;
+}
 
 /*   sobre/Gabriel */
 .sobre{
@@ -145,19 +164,18 @@ main .princ{
 
 
 /*    caracter/Gabriel */
-.carac{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: -80px;
 
-}
 .c1{
     background-color:rgba(15, 63, 58, 1) ;
     font-size: 20px;
     padding: 35px;
     color: white;
     margin-left: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.c1 h2{
+    text-align: center;
 }
 /*    end caracter/Gabriel */
 
@@ -187,14 +205,13 @@ footer p{
 
 /*    atuacao /Gabriel */
 .atuacao{
-
-    display: flex;
     align-items: center;
-    justify-content: space-between;
     font-size: 30px;
     margin-left: 2px;
     color: white;
 }
+
+
 /*    end atuacao /Gabriel */
 
 
@@ -250,11 +267,6 @@ span {
 }
 /*  end modal/Gabriel */
 
-@media screen and (max-width:720px){
-html{
-    width: 1200px;
-    margin: auto;
-    }
 
 /*  Media/Gabriel */
 @media (max-width:750px){
@@ -285,5 +297,3 @@ html{
 }
 /*  end Media/Gabriel */
 
-
- 
