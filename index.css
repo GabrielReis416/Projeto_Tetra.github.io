@@ -21,11 +21,6 @@
 
 /* NavBar/Gabriel */
 
-html{
-    width: 1480px;
-    margin: auto;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -38,6 +33,11 @@ a {
     background-color: #127369; ;
     padding-inline: 16px;
 }
+header img{
+    height: 500px;
+    width: 500px;
+}
+
 .nav {
     max-width: 1280px;
     height: 70px;
@@ -79,22 +79,27 @@ a {
 
 /*  principal/Gabriel */
 .container1{
+    font-family: 'Roboto', sans-seri;
     padding: 10%;
     margin: auto;
     background-color:rgba(15, 63, 58, 1);
     
 }
 .container2{
+    font-family: 'Roboto', sans-seri;
+    font-size: 16px;
     padding: 20px;
     margin: auto;
     background-color:#127369;;
 }
 .container3{
+    font-family: 'Roboto', sans-seri;
     padding: 10%;
     margin: auto;
     background-color:rgba(137, 165, 162, 1);
 }
 .container4{
+    font-family: 'Roboto', sans-seri;
     padding: 10%;
     margin: auto;
     background-color:rgba(137, 165, 162, 1);
@@ -141,28 +146,7 @@ main .princ{
 }
 /*   end ebook/Gabriel */
 
-.visao{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-.e1{
-    background-color:rgba(15, 63, 58, 1) ;
-    font-size: 20px;
-    padding: 20px;
-    color: white;
-    margin-left: 10px;
-    margin: 10px 10px;
-    border-radius: 5px;
-    width: 20%;
-    
-}
-.e1 h3{
-    text-align: center;
-}
-.e1 li{
-    margin-left:  90px;
-}
+
 /*   sobre/Gabriel */
 .sobre{
     font-size: 25px;
@@ -171,18 +155,19 @@ main .princ{
 
 
 /*    caracter/Gabriel */
+.carac{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -80px;
 
+}
 .c1{
     background-color:rgba(15, 63, 58, 1) ;
     font-size: 20px;
     padding: 35px;
     color: white;
     margin-left: 10px;
-    margin: 10px 10px;
-    border-radius: 5px;
-}
-.c1 h2{
-    text-align: center;
 }
 /*    end caracter/Gabriel */
 
@@ -199,6 +184,7 @@ footer h1{
 }
 footer p{
     font-size: 15x;
+    font-family: 'Roboto', sans-seri;;
 }
 .empresasflex{display: flex;
     justify-content: space-evenly;
@@ -212,13 +198,14 @@ footer p{
 
 /*    atuacao /Gabriel */
 .atuacao{
+
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     font-size: 30px;
     margin-left: 2px;
     color: white;
 }
-
-
 /*    end atuacao /Gabriel */
 
 
@@ -274,6 +261,11 @@ span {
 }
 /*  end modal/Gabriel */
 
+@media screen and (max-width:720px){
+html{
+    width: 1200px;
+    margin: auto;
+    }
 
 /*  Media/Gabriel */
 @media (max-width:750px){
@@ -302,5 +294,4 @@ span {
         pointer-events: all;
     }
 }
-/*  end Media/Gabriel */
-
+/*  end Media/Gabriel */}
