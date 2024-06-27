@@ -21,13 +21,6 @@
 
 /* NavBar/Gabriel */
 
-
-    html{
-        width: 2000px;
-    }
-    
-
-
 * {
     margin: 0;
     padding: 0;
@@ -67,6 +60,13 @@ a {
 /*  end NavBar/Gabriel */
 
 /*  principal/Gabriel */
+
+body{
+    margin: auto;
+    width: auto;
+}
+    
+    
 .container1{
     padding: 10%;
     margin: auto;
