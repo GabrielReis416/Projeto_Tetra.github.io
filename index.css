@@ -136,6 +136,9 @@ main .princ{
     color: white;
     margin-left: 50px;
  }
+ .ebook-link:hover{background-color: rgb(230, 224, 218);
+}
+.ebook-link a:hover{color:#127369}
 
 .valores{
     display: flex;
@@ -204,6 +207,10 @@ main .princ{
     width: 100%; 
 }
 
+.residuos-img{
+    width: 100%;
+}
+
 .residuos-text ul li{
     list-style-type: none; 
 }
@@ -227,6 +234,7 @@ main .princ{
     width: 60%;
 }
 
+
 .analises-text ul li{
     list-style-type: none;
 }
@@ -234,6 +242,20 @@ main .princ{
 .analises-img img {
     width: 100%;
 }
+
+.analisefalhas-container{ display: flex;
+    align-items: flex-start; 
+    width: 100%;}
+
+.container{
+        display: flex;
+        align-items: flex-start; 
+        width: 100%;
+    }
+.ensaios-txt{ width: 60%;}
+.ensaios-img{   
+     width: auto; }
+
 
 footer{
     background-color:#127369; 
