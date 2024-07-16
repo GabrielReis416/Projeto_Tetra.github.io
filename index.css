@@ -15,6 +15,7 @@
 html{
     width: auto;
     margin: auto;
+    scroll-behavior: smooth;
 }
 * {
     margin: 0;
