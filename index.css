@@ -25,8 +25,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 .logo {
-    height: 350px;
-    width: 250px;
+    height: 500px;
+    width: 400px;
 }
 .container3-wrapper{
     display: flex;
@@ -83,12 +83,12 @@ body{
 .container3{
     padding: 10%;
     margin: auto;
-    background-color: white;
+    background-color: #ece5d7;
 }
 .container4{
     padding: 10%;
     margin: auto;
-    background-color:rgba(137, 165, 162, 1);
+    background-color:#ece5d7;
     }
 
 main .princ{
@@ -126,7 +126,7 @@ main .princ{
 .ebook-link{
     width: 250px;
     font-size: 30px;
-    background-color:rgb(80, 163, 158) ;
+    background-color:#ece5d7;
     margin-left: 6px;
     border-radius: 10px;
     margin-top: 30px;
@@ -134,7 +134,7 @@ main .princ{
  }
  .ebook-link a{
     text-align: center;
-    color: white;
+    color: #0f3f3a;
     margin-left: 50px;
  }
  .ebook-link:hover{background-color: rgb(230, 224, 218);
@@ -275,10 +275,11 @@ footer p{
     font-size: 25px;
 }
 .contato {
-    background-color: #127369;
+    background-color:#0f3f3a;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
+    color: white;
 }
 .empresasflex{display: flex;
     justify-content: space-evenly;
