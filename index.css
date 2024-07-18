@@ -229,7 +229,13 @@ main .princ{
 
 
 .analises-img img {
-    width: 100%;
+    width: 400px;
+    height: auto;
+}
+
+.analisefalhas-img img {
+    width: 300px;
+    height: auto; 
 }
 
 .analisefalhas-container{ display: flex;
